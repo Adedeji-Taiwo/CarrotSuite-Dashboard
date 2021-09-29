@@ -1,0 +1,122 @@
+.preloader {
+    align-items: center;
+    background: rgb(23, 22, 22);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: opacity 0.3s linear;
+    width: 100%;
+    z-index: 9999;
+  }
+
+
+
+
+
+
+
+
+
+  .content{position: relative;}
+  .overlay{position: absolute;left: 0; top: 0; right: 0; bottom: 0;z-index: 2;background-color: rgba(255,255,255,0.6); display: none;}
+  .overlay-content {
+      position: absolute;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #555;
+      -moz-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+}
+
+
+
+.btn {
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+
+.rotates {
+    transition: all .21s linear;
+    -webkit-transition: all .21s linear;
+    -moz-transition: all .21s linear;
+    -ms-transition: all .21s linear;
+    -o-transition: all .21s linear;
+}
+
+.rotates.down {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+  
+  [x-cloak] {
+    display: none;
+  }
+
+
+  @media only screen and (min-width: 767px) and (max-width: 1024px) {
+    body > div > div > main > div > div.w-full.overflow-hidden > div {
+        background-color: rgba(70,70,70,0.1);
+        overflow-y: hidden;
+       
+    }
+
+
+
+  }
+
+
+@media only screen and (max-width: 500px) {
+    #logo {
+        width: 85%;
+    }
+
+    body > div > div > main > div > div.w-full.overflow-hidden > div > div > div > div.flex.lg\:justify-between.border-b-2.border-fuchsia-900.pb-1 > h2 {
+        color:darkgray;
+        font-size: 16px;
+    }
+
+    body > div > div > main > div > div.w-full.overflow-hidden > div > div > div > div.flex.lg\:justify-between.border-b-2.border-fuchsia-900.pb-1 > div.text-center.flex-auto {
+        width: 40%;
+        padding: 1px auto;
+    }
+
+    body > div > div > main > div > div.w-full.overflow-hidden > div > div > div > div.flex.lg\:justify-between.border-b-2.border-fuchsia-900.pb-1 > div.text-center.flex-auto > input {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 1px auto;
+        height: 33px;
+        width: 50%;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+    
+}
+
+
+
+
+
