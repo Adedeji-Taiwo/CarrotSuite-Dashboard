@@ -12,9 +12,9 @@ Administrative Dashboard Client Page
 ## Overview
 <!--Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:-->
 
-![Screenshot](https://github.com/Adedeji-Taiwo/BumbleBee/blob/main/assets/Screenshot%202021-08-31%20100127.png)
+![Screenshot](https://github.com/Adedeji-Taiwo/CarrotSuite-Dashboard/blob/main/Screenshot%202022-02-20%20065915.png)
   
-- Live link: https://bumblebee.netlify.app/
+- Live link: https://carrotsuitedb.netlify.app/
 
 ### Built With
 
@@ -26,18 +26,10 @@ Administrative Dashboard Client Page
 - [JavaScript](https://www.w3schools.com/js/default.asp)
 
 
-## Features
-
-- Business Website.
-- Multiple Pages (6).
-- Navigation links.
-- Statistical Data Active on View.
-- Mobile responsiveness.
-
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 ## Acknowledgements
- - [Iconmonstr](https://iconmonstr.com)
+ - [Fontawesome](https://fontawesome.com)
  - [Tailwind](https://tailwindcss.com)
 
 ## Contact
